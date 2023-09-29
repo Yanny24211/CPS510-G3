@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6E47E1C1-38AA-E2E8-B674-E2ADDCF4EB31" name="Director">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 15:55:47 UTC</createdTime>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<engineerTo>
+<item key="4DC12633-1784-519D-58E3-C6F40FA5B244" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="director_id" id="7B2CFCB6-218D-4DA0-5A6A-2E656736C93A">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 16:43:51 UTC</createdTime>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<engineerTo>
+<item key="4DC12633-1784-519D-58E3-C6F40FA5B244" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="5C5009E6-A45B-E836-7F69-8EDAB1640EDE">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 16:44:17 UTC</createdTime>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<engineerTo>
+<item key="4DC12633-1784-519D-58E3-C6F40FA5B244" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="331BBE85-3098-AA7F-6372-A132D5372C8D">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 16:44:36 UTC</createdTime>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<engineerTo>
+<item key="4DC12633-1784-519D-58E3-C6F40FA5B244" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nationality" id="A822A3C8-44C5-EDBA-3FBE-B16AF1380590">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 16:44:44 UTC</createdTime>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<engineerTo>
+<item key="4DC12633-1784-519D-58E3-C6F40FA5B244" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="director_description" id="C74EBA7A-2ED4-BD88-C9BE-03205C0AB52C">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 16:44:57 UTC</createdTime>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<engineerTo>
+<item key="4DC12633-1784-519D-58E3-C6F40FA5B244" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_of_birth" id="3E25C307-EBD0-997B-A561-0AF864981871">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 16:45:15 UTC</createdTime>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<engineerTo>
+<item key="4DC12633-1784-519D-58E3-C6F40FA5B244" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="movie_id" id="5A2C7447-382C-5ABA-7FC5-72A50AC23E68">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:00:25 UTC</createdTime>
+<generatorID>4DDD852D-641B-CA2D-12A6-9D880296C42B</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<engineerTo>
+<item key="4DC12633-1784-519D-58E3-C6F40FA5B244" value="true"/>
+</engineerTo>
+<referedAttribute>03185D18-E638-DE32-0CF2-5A65388F1D6E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="51A7691A-AEDD-1B89-462E-9251F7770DD6" name="DIRECTOR_PK">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 16:52:06 UTC</createdTime>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<engineerTo>
+<item key="4DC12633-1784-519D-58E3-C6F40FA5B244" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>7B2CFCB6-218D-4DA0-5A6A-2E656736C93A</newElementsIDs>
+<usedAttributes>
+<attributeRef>7B2CFCB6-218D-4DA0-5A6A-2E656736C93A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

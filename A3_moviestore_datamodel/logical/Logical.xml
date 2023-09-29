@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="77B75326-B6D1-2D55-D460-D537C9DFFE24" mainViewID="E225F5B1-3AA5-85B5-2D29-85AB7D32236B">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 15:46:33 UTC</createdTime>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

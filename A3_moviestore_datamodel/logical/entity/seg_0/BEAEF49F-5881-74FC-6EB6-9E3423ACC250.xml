@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BEAEF49F-5881-74FC-6EB6-9E3423ACC250" name="Language">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 15:56:39 UTC</createdTime>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<engineerTo>
+<item key="4DC12633-1784-519D-58E3-C6F40FA5B244" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="language_id" id="3D5D9F65-69C1-FEF8-1BB9-E274BF4A879A">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 16:39:37 UTC</createdTime>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<engineerTo>
+<item key="4DC12633-1784-519D-58E3-C6F40FA5B244" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="language" id="2E11D3E0-D0A4-15FC-DC86-D24085E10F53">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 16:43:33 UTC</createdTime>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<engineerTo>
+<item key="4DC12633-1784-519D-58E3-C6F40FA5B244" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="movie_id" id="641FD15D-A2F2-AA9D-F0DD-742F91D4CB78">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:00:57 UTC</createdTime>
+<generatorID>D8FADD29-5640-1DC0-3788-58ECBE8A3721</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<engineerTo>
+<item key="4DC12633-1784-519D-58E3-C6F40FA5B244" value="true"/>
+</engineerTo>
+<referedAttribute>03185D18-E638-DE32-0CF2-5A65388F1D6E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

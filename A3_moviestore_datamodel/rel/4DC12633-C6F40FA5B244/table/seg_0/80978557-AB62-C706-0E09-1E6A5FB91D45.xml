@@ -1,0 +1,251 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80978557-AB62-C706-0E09-1E6A5FB91D45" name="Movie">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>9F9D71D2-29C0-8498-B15C-6A6A887B43B4</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="movie_id" id="A73ACD45-FC6A-E13B-F667-E849926C6574">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>03185D18-E638-DE32-0CF2-5A65388F1D6E</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="55F26F99-16D6-D045-3758-6F321E9453BC">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>58499A12-28B4-9AE8-98F7-3A472E7C3869</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cast" id="245506D0-CEDD-EF57-CE45-CFBCCA1ACA47">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>32A05719-5A85-2AA9-6ED6-43B12876FABC</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="director_id" id="C0E3E4EE-2930-B1C7-E7B3-932DAA016541">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>AAEAAECE-A084-6C18-CFDB-33A9E19CE987</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country_origin" id="F142201B-85CB-EAFF-F4AB-AA1E03B80DC0">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>4F9F43EC-B3F9-6024-38EF-F9862883B878</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="runtime" id="C07E456A-EEFA-2F07-E854-79E091DC75ED">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>07E800C4-4F63-8B0B-A0A7-805ED304F105</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cost" id="FC602122-CE30-4F3F-327C-42E90812CF19">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>EF963887-D078-A04B-C497-15E53EF609CA</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="video_format" id="66E63E51-036D-579D-9D43-2125093BCC57">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>2C8B19F5-DDDF-045B-C957-0CB965B2E512</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="relese_date" id="4930A9EC-7B88-E401-63E9-A587ECBC5761">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>F9641BE9-FC24-6397-A6C1-34889887E029</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="AC2E604C-E061-7934-C380-C0FC731E10E4">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>165664E3-E7EB-1470-087C-F5E81F6129E1</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,1,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genre_id" id="7C58F758-FCF2-D0B2-A2C6-7F49819CB564">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>BB354673-F9D3-A59B-9A80-22A9FD591CDC</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="movie_description" id="578C6F17-D5D1-F2D7-65A9-C94B99D8E1AA">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>63C294F3-9F90-AFAD-A422-ABEFC0CC6300</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="language_id" id="66B2A9C4-823C-36F2-57F3-4DBA9DC4EE8E">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>3F2FA25B-3DC1-B0C3-E30D-D584BF0C0DD6</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="company_id" id="5E774E21-4B57-FA39-1DFE-BB47D38A9FA5">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>B80ED426-3F14-FE31-F7ED-4E2CBD71DD57</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_user_id" id="5961695E-7BAF-3D98-CA25-055C0D15FFA9">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>D4E233A6-823E-7FA8-686C-5A8959D0C8EE</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B1F67D9-399E-EAB9-B91B-62B4268B8707" referredColumn="B230C1E2-1F3A-08C5-A54E-6DF434D9A74B"/>
+</associations>
+</Column>
+<Column name="Billing_transaction_id" id="76F2B1FD-0CFF-F330-CDC9-44C6BBC96368">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>F4BC1D63-0DB6-BF51-3F69-40558113D698</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6B6B8F3-723A-2C8A-DDE1-60A19CD5C34B" referredColumn="D0F0D5A8-7185-A1A6-EC78-5739AEE02692"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1905AE8-216C-D189-024E-86B57B7C02BC" name="Movie_PK">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>F8B9802B-6A9D-3038-6462-D8CCA8EF20B0</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A73ACD45-FC6A-E13B-F667-E849926C6574"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89700F7E-5B40-1919-7C93-137184AB79A7" name="Movie_Billing_FK">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>4B3F9683-651F-13DF-8417-436C8863BF68</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76F2B1FD-0CFF-F330-CDC9-44C6BBC96368"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BA099D1-3C40-1AEB-F5CA-66EDDE19D30D" name="Movie_User_FK">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>5558C566-4297-2973-579B-9323020EAD49</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5961695E-7BAF-3D98-CA25-055C0D15FFA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

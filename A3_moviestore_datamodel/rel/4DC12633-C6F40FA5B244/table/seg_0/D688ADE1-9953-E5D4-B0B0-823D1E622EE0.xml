@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D688ADE1-9953-E5D4-B0B0-823D1E622EE0" name="Billing">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>22830DEF-CDE2-22C6-E2B8-27803D40A687</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="transaction_id" id="D0F0D5A8-7185-A1A6-EC78-5739AEE02692">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>3829D3F0-B5D4-B1B1-558B-2B309A82DF15</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bill_date" id="06AF5265-A746-5966-F2BE-4C18EDC4D625">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>F6B1FABA-CBCA-09EB-E8FE-66D2FC08E5C7</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fname" id="58B67514-8F10-3C08-426C-97C5CA6727BB">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>E1F91784-FD45-E156-A76A-001B605CC365</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="A08BCFA5-2B56-544C-CF6F-836C12F0FD73">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>6D7CF3ED-8509-3979-C8BC-8166A27216CB</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="movie_id" id="A07E2867-4A84-55E8-04B1-1E56666452BF">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>C05A3B6B-AE65-45E2-1E63-F729EF249FDC</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="order_total" id="49AAB3E8-A1DD-7C91-BF99-55DAB7657A7D">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>9C33558F-CA0F-9DB3-6E29-F653E1EF6AFE</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payment_method" id="A8961704-26AD-97D3-6D10-64C6D43B6E50">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>E7476548-E73C-C476-E651-5109DF0E4E26</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="username" id="569797D0-5C44-3EB4-DDB9-3DAFDA662E79">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>3B2BA2D1-584C-CE3B-06CC-85D78F00811C</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_user_id" id="BC4ACB84-AE0C-FC8C-4FAD-B1B64FEDD441">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>A8D5DDD9-8E5F-03BF-8B80-2CFF4DE9AAA6</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADB6EBCD-35CE-6F45-486F-7CD00E7ED983" referredColumn="B230C1E2-1F3A-08C5-A54E-6DF434D9A74B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8719E839-1605-332A-1B14-0DEF1A6051D1" name="Billing_PK">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>27B3CA3E-54AF-EFD5-411C-9668822E5C1B</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0F0D5A8-7185-A1A6-EC78-5739AEE02692"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C1B76CC-631C-B531-B3DF-55222D54F8A9" name="Billing_User_FK">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>49A58B89-4605-9911-0134-C962D56FBA8B</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC4ACB84-AE0C-FC8C-4FAD-B1B64FEDD441"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

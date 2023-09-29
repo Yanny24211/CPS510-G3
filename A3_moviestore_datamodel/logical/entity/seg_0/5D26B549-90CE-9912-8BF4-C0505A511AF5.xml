@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5D26B549-90CE-9912-8BF4-C0505A511AF5" name="ProductionCompany">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 15:56:20 UTC</createdTime>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<engineerTo>
+<item key="4DC12633-1784-519D-58E3-C6F40FA5B244" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="company_id" id="288FF9F4-1C00-A3A2-E512-267F5267D2EC">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 16:38:28 UTC</createdTime>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<engineerTo>
+<item key="4DC12633-1784-519D-58E3-C6F40FA5B244" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="company_name" id="5BC36DEC-400C-96A8-255A-BE0E56968914">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 16:38:16 UTC</createdTime>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<engineerTo>
+<item key="4DC12633-1784-519D-58E3-C6F40FA5B244" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="movie_id" id="C15F19E5-7CBE-8788-768F-059D95802369">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 16:38:46 UTC</createdTime>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<engineerTo>
+<item key="4DC12633-1784-519D-58E3-C6F40FA5B244" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="filmstyle_info" id="E090C4DB-09A4-3B42-5D77-324BD52A195F">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 16:39:07 UTC</createdTime>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<engineerTo>
+<item key="4DC12633-1784-519D-58E3-C6F40FA5B244" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="movie_id1" id="69115667-C219-2F5D-9F01-239689803029">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:01:32 UTC</createdTime>
+<generatorID>D8FC7DFD-5C92-422F-19A8-089A9DA85B81</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<engineerTo>
+<item key="4DC12633-1784-519D-58E3-C6F40FA5B244" value="true"/>
+</engineerTo>
+<referedAttribute>03185D18-E638-DE32-0CF2-5A65388F1D6E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6E3BE6CD-6C6B-AD18-5787-D34FC4A26BD7" name="PRODUCTIONCOMP_PK">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 16:52:55 UTC</createdTime>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<engineerTo>
+<item key="4DC12633-1784-519D-58E3-C6F40FA5B244" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>288FF9F4-1C00-A3A2-E512-267F5267D2EC</newElementsIDs>
+<usedAttributes>
+<attributeRef>288FF9F4-1C00-A3A2-E512-267F5267D2EC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

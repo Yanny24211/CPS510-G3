@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="750EE38E-A0D6-192E-3CE2-53379AA74256" name="Language">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>BEAEF49F-5881-74FC-6EB6-9E3423ACC250</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="language_id" id="EBE1F83B-F637-7C34-C680-853FFC44963A">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>3D5D9F65-69C1-FEF8-1BB9-E274BF4A879A</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="language" id="50CC72EE-0A3A-7695-3E44-5C25AE5682AD">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>2E11D3E0-D0A4-15FC-DC86-D24085E10F53</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Movie_movie_id" id="C5035652-E2A5-4FB1-E325-1AE31D9F7415">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>641FD15D-A2F2-AA9D-F0DD-742F91D4CB78</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FC27796-B2CB-C4FE-1ABD-8DC139A674C1" referredColumn="A73ACD45-FC6A-E13B-F667-E849926C6574"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B2EA7FBD-DA96-1EB0-F884-554B2F203440" name="Language_Movie_FK">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>D8FADD29-5640-1DC0-3788-58ECBE8A3721</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5035652-E2A5-4FB1-E325-1AE31D9F7415"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

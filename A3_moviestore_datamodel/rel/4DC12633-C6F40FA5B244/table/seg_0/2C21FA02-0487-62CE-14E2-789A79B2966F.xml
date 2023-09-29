@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C21FA02-0487-62CE-14E2-789A79B2966F" name="User">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>B29301D0-A92E-949D-2FD3-EF1F0825369F</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_id" id="B230C1E2-1F3A-08C5-A54E-6DF434D9A74B">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>CAB87180-A6BB-07B3-801E-96F689BEE929</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="username" id="C13061ED-0FE1-08A8-5F68-D8170F4D1379">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>BC6276FD-EDA8-B580-19D3-A12C8BEB6952</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fname" id="F0F3D6AA-3689-32A3-FCAF-6DBB0897C8F3">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>54E6C77F-C6CE-5A9C-D399-71F177B31657</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lname" id="A8B3F197-0173-22A9-ED8F-B5C18C731B51">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>EA9468A1-3F39-A344-13D7-FAF62B1F3221</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction_id" id="F9FC3F13-AF71-F14A-8FDD-71ED99C2CB09">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>42CEA566-F607-5825-9D2C-810EFE1A9658</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="current_points" id="A0E30906-D973-5F80-8CB2-57FC2086540B">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>0BFBA7B6-B038-A6D4-7721-D68F76F76DDC</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="B53AC187-50AB-2E51-B175-7168C9435FA4">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>0021720A-E30F-9B50-CF6B-F2097B4C227F</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_of_birth" id="2B452831-39F6-2C6C-2929-6ABBEE72EFC9">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>F4B6CFCC-84D8-132E-6D85-840F37180F50</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="CD4CDA5F-F2F0-CE51-BFFA-B2BAB3EE17EB">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>5E71631B-9B4E-AE1C-C24E-07709F824FF2</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8CC54E23-9F0F-F663-9527-625C08CE777C" name="User_PK">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>886F8123-BC9C-C5C8-FA6A-34821E9CE693</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B230C1E2-1F3A-08C5-A54E-6DF434D9A74B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

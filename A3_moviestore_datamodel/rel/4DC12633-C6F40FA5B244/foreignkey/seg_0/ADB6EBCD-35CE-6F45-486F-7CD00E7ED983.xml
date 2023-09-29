@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ADB6EBCD-35CE-6F45-486F-7CD00E7ED983" containerWithKeyObject="D688ADE1-9953-E5D4-B0B0-823D1E622EE0" localFKIndex="4C1B76CC-631C-B531-B3DF-55222D54F8A9" name="Billing_User_FK">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:03:49 UTC</createdTime>
+<generatorID>49A58B89-4605-9911-0134-C962D56FBA8B</generatorID>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<referredTableLongName>User</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2C21FA02-0487-62CE-14E2-789A79B2966F</referredTableID>
+<keyObject>8CC54E23-9F0F-F663-9527-625C08CE777C</keyObject>
+<referredKeyID>8CC54E23-9F0F-F663-9527-625C08CE777C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>user_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

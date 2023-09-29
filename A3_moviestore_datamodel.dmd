@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="A3_moviestore_datamodel" id="95682011-A054-D324-A923-410D4984621D" version="3.5">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 15:46:33 UTC</createdTime>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>95682011-A054-D324-A923-410D4984621D</designId>
+</OSDM_Design>

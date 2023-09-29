@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MOVIE-LANG" directorySegmentName="seg_0" id="D8FADD29-5640-1DC0-3788-58ECBE8A3721">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 17:00:57 UTC</createdTime>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<engineerTo>
+<item key="4DC12633-1784-519D-58E3-C6F40FA5B244" value="true"/>
+</engineerTo>
+<sourcePk>F8B9802B-6A9D-3038-6462-D8CCA8EF20B0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9F9D71D2-29C0-8498-B15C-6A6A887B43B4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BEAEF49F-5881-74FC-6EB6-9E3423ACC250</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

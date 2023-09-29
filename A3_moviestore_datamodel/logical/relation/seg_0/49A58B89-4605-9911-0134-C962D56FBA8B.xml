@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="USER-BILLING" directorySegmentName="seg_0" id="49A58B89-4605-9911-0134-C962D56FBA8B">
+<createdBy>Yanny</createdBy>
+<createdTime>2023-09-29 16:58:18 UTC</createdTime>
+<ownerDesignName>A3_moviestore_datamodel</ownerDesignName>
+<engineerTo>
+<item key="4DC12633-1784-519D-58E3-C6F40FA5B244" value="true"/>
+</engineerTo>
+<sourcePk>886F8123-BC9C-C5C8-FA6A-34821E9CE693</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B29301D0-A92E-949D-2FD3-EF1F0825369F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>22830DEF-CDE2-22C6-E2B8-27803D40A687</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

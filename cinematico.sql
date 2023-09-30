@@ -149,3 +149,8 @@ VALUES (1, 'john_doe', 'John', 'Doe', 150, 'john.doe@example.com', TO_DATE('1992
 INSERT INTO billing(TRANSACTION_ID, BILL_DATE, USERNAME, EMAIL, ORDER_TOTAL, PAYMENT_METHOD, MOVIE_ID, USER_ID)
 VALUES (1, TO_DATE('2023-09-30', 'YYYY-MM-DD'), 'john_doe', 'john.doe@example.com', 25.99, 'Credit Card', 2, 1);
 
+
+
+
+
+
